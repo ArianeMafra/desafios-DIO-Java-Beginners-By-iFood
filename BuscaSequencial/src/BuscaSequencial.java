@@ -47,6 +47,7 @@ public class BuscaSequencial {
         int numero = leitor.nextInt();
         System.out.println(BuscarNumero(numero, elementos));
         
+        leitor.close();
     }
         
     
